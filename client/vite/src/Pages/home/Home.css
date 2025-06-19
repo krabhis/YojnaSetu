@@ -1,0 +1,85 @@
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  flex-wrap: wrap;
+  background-color: #f0f4f8;
+}
+
+.leftpart {
+  flex: 1;
+  padding: 2rem;
+  min-width: 300px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #1e40af;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 2rem;
+  max-width: 450px;
+}
+
+.cta-buttons .btn {
+  padding: 0.75rem 1.5rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn.explore {
+  background-color: #0f766e;
+  color: white;
+}
+
+.btn.explore:hover {
+  background-color: #0d9488;
+}
+
+.btn.check {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.btn.check:hover {
+  background-color: #d97706;
+}
+
+.rightpart {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+}
+
+/* .person-card {
+  width: 320px;
+  height: 420px;
+  background: linear-gradient(135deg, #f97316, #16a34a, #dc2626);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  padding-bottom: 1rem;
+} */
+
+.person-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
