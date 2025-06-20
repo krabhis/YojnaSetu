@@ -1,9 +1,12 @@
 import React from 'react';
 import './Home.css';
 import hom_banner from "../../assets/hom_banner.png"; // Replace with actual image path
+import SchemeStat from "../../components/schemestat/SchemeStat";
+import Categorygrid from "../../components/categorygrid/Categorygrid";
 
 function Home() {
   return (
+    <>
     <section className="home-section">
       <div className="leftpart">
         <h3 className="title">YojnaSetu — Your Gateway to Every Government Scheme</h3>
@@ -17,11 +20,17 @@ function Home() {
       </div>
 
       <div className="rightpart">
-        <div className="person-card">
           <img src={hom_banner} alt="person" className="person-img" />
-        </div>
+        
       </div>
     </section>
+    <section className='SchemeStats'>
+       <SchemeStat/>
+    </section>
+    <section className='Categorygrid'>
+      <Categorygrid/>
+    </section>
+    </>
   );
 }
 

@@ -1,8 +1,8 @@
 /* YojnaSetuCarousel.css */
 .carousel {
   position: relative;
-  width: 100%;
-  max-width: 700px;
+  width: 80%;
+  /* max-width: 700px; */
   margin: auto;
   overflow: hidden;
   border-radius: 10px;
@@ -93,3 +93,4 @@
     font-size: 1.2rem;
   }
 }
+

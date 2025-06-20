@@ -1,0 +1,80 @@
+.scheme-section {
+  width: 100%;
+  background-color:	rgba(255, 255, 255, 0.903);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.scheme-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.scheme-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px 25px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-width: 260px;
+  max-width: 320px;
+  transition: transform 0.3s ease;
+}
+
+.scheme-card:hover {
+  transform: translateY(-4px);
+}
+
+.scheme-icon {
+  font-size: 2.5rem;
+  color: #22c55e; /* Green color */
+}
+
+.scheme-count {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0;
+  color: #000;
+}
+
+.scheme-text {
+  margin: 4px 0 0;
+  color: #555;
+}
+
+.scheme-button-wrapper {
+  margin-top: 40px;
+}
+
+.scheme-button {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.scheme-button:hover {
+  background-color: #16a34a;
+}
+
+.button-icon {
+  font-size: 1.2rem;
+}
