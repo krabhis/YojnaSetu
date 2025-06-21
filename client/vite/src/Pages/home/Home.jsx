@@ -5,8 +5,13 @@ import SchemeStat from "../../components/schemestat/SchemeStat";
 import Categorygrid from "../../components/categorygrid/Categorygrid";
 import HowToApply from '../../components/howToApply/Howtoapply';
 import Aboutus from '../../components/aboutus/Aboutus';
+import FAQSection from '../../components/FAQsection/FAQSection';
+import Footer from '../../components/Footer/Footer';
 
 function Home() {
+  
+
+
   return (
     <>
     <section className="home-section">
@@ -37,6 +42,9 @@ function Home() {
     </section>
     <section>
       <Aboutus/>
+    </section>
+    <section>
+      <FAQSection/>
     </section>
     </>
   );
