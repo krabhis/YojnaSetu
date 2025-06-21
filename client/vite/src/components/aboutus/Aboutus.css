@@ -1,0 +1,70 @@
+.about-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-icon svg {
+  font-size: 40px;
+  color: #65c136;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+
+.about-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.about-item {
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.item-icon {
+  font-size: 30px;
+  color: #65c136;
+  margin-bottom: 10px;
+}
+
+.about-item h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-item p {
+  font-size: 0.95rem;
+  color: #4a4a4a;
+}
+
+.about-button {
+  background-color: #65c136;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.about-button:hover {
+  background-color: #4da528;
+}

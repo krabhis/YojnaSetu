@@ -13,8 +13,8 @@
 .category-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 24px;
-  max-width: 1200px;
+  gap: 30px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -30,7 +30,6 @@
   transition: transform 0.3s ease, background-color 0.3s ease;
   cursor: pointer;
 }
-
 .category-card:hover {
   background-color: #f3f4f6;
   transform: translateY(-4px);

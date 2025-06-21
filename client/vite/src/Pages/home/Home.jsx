@@ -1,8 +1,10 @@
 import React from 'react';
 import './Home.css';
-import hom_banner from "../../assets/hom_banner.png"; // Replace with actual image path
+import hom_banner from "../../assets/hom_banner.png"; 
 import SchemeStat from "../../components/schemestat/SchemeStat";
 import Categorygrid from "../../components/categorygrid/Categorygrid";
+import HowToApply from '../../components/howToApply/Howtoapply';
+import Aboutus from '../../components/aboutus/Aboutus';
 
 function Home() {
   return (
@@ -29,6 +31,12 @@ function Home() {
     </section>
     <section className='Categorygrid'>
       <Categorygrid/>
+    </section>
+     <section className='Categorygrid'>
+      <HowToApply/>
+    </section>
+    <section>
+      <Aboutus/>
     </section>
     </>
   );
