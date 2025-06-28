@@ -1,10 +1,10 @@
-import User from "../model/user.model"
-import jwt, { JsonWebTokenError } from "jsonwebtoken";
-// import { refreshAccessToken } from "../controller/user.controller";
+import User from "../model/user.model.js"
+import jwt from "jsonwebtoken";
+// import { refreshAccessToken } from "../controller/user.controller.js";
 
 export const verifyJWT=async(req,res,next)=>{
     try{
-        const token = req.cookies?.accessToken||req.header("Authorization")?.replace("Bearer","")||req.body?.accrssToken;
+        const token = req.cookies?.accessToken||req.header("Authorization")?.replace("Bearer","")||req.body?.accessToken;
         if(!token){
             return res.status(403).json({
                 message:"JWT_ACCESS_TOKEN_NOT_FOUND",
@@ -27,7 +27,7 @@ export const verifyJWT=async(req,res,next)=>{
                     status:403,
                     success:false,
                 });
-                
+
             }else if(err.name==="JsonWebTokenError"){
                 return res.status(403).json({
                     error:err,
@@ -50,7 +50,7 @@ req.user=user;
 next();
 
     }catch(error){
-        console.error("Error verifying JWT:" , error);
+        console.error("Error verifying JWT:",error);
         return res.status(403).json({
             message:"GENERAL_ERROR",
             status:403,

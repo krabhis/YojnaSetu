@@ -1,10 +1,10 @@
-import { signUp, login, logout, refreshAccessToken, getMe, putData } from "../controllers/user.controller.js";
+import { signUp, login, logout, refreshAccessToken, getMe, putData } from "../../controller/user.controller.js";
 import express from "express";
-// import { verifyJWT } from "../../middlewares/auth.middleware.js";
+import { verifyJWT } from "../../middleware/auth.middleware.js";
 
 const router = express.Router();
 
-router.post("/signUp", signUp);
+router.post("/signup", signUp);
 router.post("/login", login);
 router.post("/logout", verifyJWT, logout);
 router.get("/refresh-access-token", refreshAccessToken);
