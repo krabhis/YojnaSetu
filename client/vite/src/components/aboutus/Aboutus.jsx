@@ -5,10 +5,11 @@ import { FaInfoCircle, FaBullseye, FaUsers, FaShieldAlt } from 'react-icons/fa';
 const Aboutus = () => {
   return (
     <section className="about-section">
-      <h2 className="about-title">About Us</h2>
-      <div className="about-icon">
-        <FaInfoCircle />
+      <div className="about-title-container">
+        <FaInfoCircle className="about-title-icon" />
+        <h2 className="about-title">About Us</h2>
       </div>
+
       <p className="about-description">
         We are dedicated to bridging the gap between citizens and government schemes.
         Our mission is to provide easy access to all government schemes, ensuring that

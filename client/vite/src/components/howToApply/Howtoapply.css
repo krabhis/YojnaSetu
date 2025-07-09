@@ -1,47 +1,46 @@
 .how-to-apply {
-  background-color: #f9fafb;
-  padding: 40px 20px;
+  padding: 2rem;
   text-align: center;
 }
 
 .heading {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 40px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
 }
 
 .steps-container {
   display: flex;
-  flex-direction: column;
-  gap: 30px;
-  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .step {
-  max-width: 300px;
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-width: 320px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
 }
 
-.step-icon {
-  font-size: 36px;
-  color: #39d353; /* green */
-  margin-bottom: 10px;
+.icon-wrapper {
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: #007bff;
+  display: flex;
+  align-items: center;
+}
+
+.step-text {
+  flex: 1;
 }
 
 .step-title {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
+  font-size: 1.2rem;
+  margin: 0 0
 
-.step-desc {
-  font-size: 14px;
-  color: #555;
-}
-
-/* Responsive for desktop */
-@media screen and (min-width: 768px) {
-  .steps-container {
-    flex-direction: row;
-    justify-content: center;
-  }
 }

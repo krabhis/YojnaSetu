@@ -1,7 +1,7 @@
 import User from "../model/user.model.js"
 
 import jwt from  "jsonwebtoken";
-
+import { generateAccessAndRefreshToken } from "../helper/generateAccessAndRefreshToken.js";
 // signup
 
 const signUp = async (req, res)=>{

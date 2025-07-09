@@ -8,25 +8,39 @@ export default function HowToApply() {
       <h2 className="heading">How to Apply</h2>
       <div className="steps-container">
         <div className="step">
-          <FaUserPlus className="step-icon" />
-          <h3 className="step-title">Enter Details</h3>
-          <p className="step-desc">
-            Start by entering your details to find relevant schemes
-          </p>
+          <div className="icon-wrapper">
+            <FaUserPlus className="step-icon" />
+          </div>
+          <div className="step-text">
+            <h3 className="step-title">Enter Details</h3>
+            <p className="step-desc">
+              Start by entering your details to find relevant schemes
+            </p>
+          </div>
         </div>
+
         <div className="step">
-          <FaSearch className="step-icon" />
-          <h3 className="step-title">Search</h3>
-          <p className="step-desc">
-            Our search engine helps you find the relevant schemes
-          </p>
+          <div className="icon-wrapper">
+            <FaSearch className="step-icon" />
+          </div>
+          <div className="step-text">
+            <h3 className="step-title">Search</h3>
+            <p className="step-desc">
+              Our search engine helps you find the relevant schemes
+            </p>
+          </div>
         </div>
+
         <div className="step">
-          <FaCheckSquare className="step-icon" />
-          <h3 className="step-title">Select and Apply</h3>
-          <p className="step-desc">
-            Choose the schemes you're eligible for and apply online
-          </p>
+          <div className="icon-wrapper">
+            <FaCheckSquare className="step-icon" />
+          </div>
+          <div className="step-text">
+            <h3 className="step-title">Select and Apply</h3>
+            <p className="step-desc">
+              Choose the schemes you're eligible for and apply online
+            </p>
+          </div>
         </div>
       </div>
     </div>

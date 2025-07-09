@@ -68,3 +68,20 @@
 .about-button:hover {
   background-color: #4da528;
 }
+.about-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-title-icon {
+  font-size: 1.8rem;
+  color: #4da528;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
